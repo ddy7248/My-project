@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset= "utf-8">
+    <meta name = "viewport" content = "width=device-width">
+    <title>My First Webpage</title>
+    <link href="style.css" rel= "stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <p>Hello World!</p>
+    <p>This text will be <strong>strong</strong></p>
+    <p>This text will be <em>em</em></p>
+    <p>This text will be <sub>sub</sub></p>
+    <p>This text will be <sup>sup</sup></p>
+    <p>This text will be <del>del</del></p>
+
+    <ol> 
+      <li>Red</li>
+      <li>Yellow</li>
+      <li>Blue</li>
+    </ol>
+    
+    <img src="http://kinimage.naver.net/20120411_53/1334141109594tSwaJ_JPEG/%BB%F5%B3%A2%B0%AD%BE%C6%C1%F66.jpg" height=300 width=400>
+
+    <p><input type="text"></p>
+    <input type="password">
+    <input type="checkbox">Tick this checkbox
+
+    <p><input type="checkbox">Red</p>
+    <p><input type="checkbox">Blue</p>
+    <p><input type="checkbox">Green</p>
+
+    <p><input type="radio" name="size">Small</p>
+    <p><input type="radio" name="size">Medium</p>
+    <p><input type="radio" name="size">Large</p>
+
+    <select>
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+    </select>
+    
+    <p><textarea cols=50 rows=10> </textarea></p>
+    <input type="submit" value="Click Me!">
+
+    <P><input type="text"></P>
+    <P><input type="password"></P>
+    <P><input type="radio" name="gender">남
+      <input type="radio" name="gender">여</P>
+    <p><input type="submit" value="제출"></p>
+
+    <table border=1>
+      <tr>
+        <th width=200>Name</th>
+        <th width=100>Age</th>
+        <th width=150>gender</th>
+      </tr>
+      <tr>
+        <td>Rob</td>
+        <td>35</td>
+        <td>Male</td>
+      </tr>
+    </table>
+    
+    <a href="http://google.com" target=_blank>Search The Web</a>
+    <p id="last">
+    <a href="#last">Go to last paragraph</a>
+    &#9786;
+    &copy; and &#169;
+
+    <p>
+      <iframe src="https://ko.wikipedia.org" width=550 eight=660>
+      </iframe>
+    </p>
+  
+
+  </body>
+</html>
